@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Josefin Slab'
+	src: url(JosefinSlab-SemiBold.ttf); 
+}
+
+body {
+    font-family: "Josefin Slab"; 
+    font-weight: 300;
+    font-size: 12px;
+	background-color: mintcream; 
+}
+
+.pretitle
+{
+	font-family: "Josefin Slab"; 
+	font-weight: 50; 
+	font-size: 72px; 
+	margin: -3px ;
+	color: #AFAFAF; 
+}
+
+a,
+a:link {
+    outline: none;
+}
+
+.retitle
+{
+	font-family: "Josefin Slab"; 
+	font-weight: 50; 
+	font-size: 72px; 
+	margin: -3px; 
+}
+
+/* h1 {
+	font-family: "Josefin Slab"; 
+    font-weight: 80;
+    font-size: 72px;
+	margin: 20px ;
+	position: relative;
+	top: 20px;
+} */
+
+.posttitle
+{
+	font-family: "Josefin Slab"; 
+	font-weight: 50; 
+	font-size: 72px; 
+	margin: -3px ;
+	color: SlateGray; 
+}
+
+/* h2
+{
+	font-weight: 40; 
+	font-size: 20px; 
+	margin: 20px; 
+	color: #AFAFAF; 
+	position: relative;
+	botton: 20px;
+
+} */
+
+.collaborative
+{
+	font-size: 30px; 
+	margin: 0px; 
+	color: #AFAFAF; 
+	position: relative; 
+	top: 8px;  
+}
+
+.tasks
+{
+	font-size: 30px; 
+	margin: 0px;  
+	position: relative; 
+	top: 8px;  
+}
+
+.etcetera
+{
+	font-size: 30px; 
+	margin: 0px; 
+	color: SlateGray; 
+	position: relative; 
+	top: 8px;  
+}
+	
+
+#container 
+{
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+input[type="text"] {
+    height: 32px;
+    width: 545px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 24px;
+	font-family: "Josefin Slab";
+	margin: 20px auto; 
+}
+input[type="submit"] {
+    height: 56px;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: /* #ccc; */ #efefef;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none; 
+	font-family: "Josefin Slab";
+}
+ul {
+    margin: 10px auto ;
+    padding: 0;
+    width: 545px;
+}
+
+u2
+{
+	margin: 10px auto; 
+	padding: 0; 
+	width: 545px; 
+}
+
+.source
+{
+	text-align:center; 
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 24px;
+    cursor: move;
+    background-color: #efefef; 
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+	font-family: "Josefin Slab"; 
+}
+
+ul li span {
+    cursor: text;
+}
+ul li a,
+
+ul li a:link {
+    float: right;
+    display: none;
+    text-decoration: none;
+    color: Crimson;
+	font-family: "Josefin Slab"; 
+}
+ul li a:hover {
+    text-decoration: underline;
+	color: orange; 
+} 
+
+#share .share-button
+{
+	background-color:#484848;
+	width: 100px;
+	height: 40px;
+	margin:auto;
+	margin-bottom: 5px;
+
+	text-align:center;
+
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	overflow:hidden;
+}
+
+#share .share-label
+{
+	position:relative;
+
+	color:#ffffff;
+
+	margin-top:10px;
+}
